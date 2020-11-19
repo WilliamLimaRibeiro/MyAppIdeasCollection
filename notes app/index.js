@@ -1,0 +1,17 @@
+
+
+
+
+
+
+function storange(){
+    // if (typeof(Storage) !== "undefined") {
+
+        localStorage.setItem('data', document.getElementById('result').value);
+    
+}
+function reload(){
+    document.getElementById("result").innerHTML = localStorage.getItem("data");
+    
+    // document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
+}
