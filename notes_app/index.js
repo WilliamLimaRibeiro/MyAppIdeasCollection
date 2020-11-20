@@ -14,3 +14,7 @@ function autoSave(){
         storange();
     }, 3000)
 }
+
+function deleteNote(){
+    localStorage.removeItem('data');
+}
