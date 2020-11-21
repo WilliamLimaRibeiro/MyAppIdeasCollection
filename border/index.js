@@ -3,6 +3,8 @@ var bottomright;
 var topleft;
 var bottomleft;
 
+var bordersize;
+
 function topRight(){
     topright = document.getElementById('top-right').value;
     document.getElementById('box').style.borderTopRightRadius = topright + '%';
@@ -29,4 +31,11 @@ function bottomLeft() {
 
 function codFont() {
     document.getElementById('cod').value ="border-top-right-radius:"+ topright + "%; border-bottom-right-radius:" + bottomright +"%; border-bottom-left-radius:"+ bottomleft +"%; border-top-left-radius:"+topleft+"%;";
+}
+
+function sizeBorder(){
+    
+    bordersize = document.getElementById('box-border').value;
+    document.getElementById('box').style.borderSize = bordersize +'px';
+    
 }

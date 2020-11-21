@@ -3,14 +3,14 @@
 #box{
     width: 130px;
     height: 130px;
-    background-color: black;
+    /* background-color: rgb(233, 12, 12); */
     
     border-top-right-radius: 0%;
     border-bottom-right-radius: 0%;
 
     border-bottom-left-radius: 0%;
     border-top-left-radius: 0%;
-    
+    border: 1px solid black;    
 }
 
 input::-webkit-outer-spin-button,
