@@ -1,0 +1,32 @@
+
+
+#box{
+    width: 130px;
+    height: 130px;
+    background-color: black;
+    
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+
+    border-bottom-left-radius: 0%;
+    border-top-left-radius: 0%;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+textarea{
+    position: absolute;
+    top: 10px;
+    left: 20%;
+    right: 0%;
+}
