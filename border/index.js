@@ -1,7 +1,7 @@
-var topright;
-var bottomright;
-var topleft;
-var bottomleft;
+var topright = 0;
+var bottomright = 0;
+var topleft = 0;
+var bottomleft = 0;
 
 var bordersize;
 
@@ -30,7 +30,7 @@ function bottomLeft() {
 }
 
 function codFont() {
-    document.getElementById('cod').value ="border-top-right-radius:"+ topright + "%; border-bottom-right-radius:" + bottomright +"%; border-bottom-left-radius:"+ bottomleft +"%; border-top-left-radius:"+topleft+"%;";
+    document.getElementById('cod').value ="border-top-right-radius:"+ topright + "%;\nborder-bottom-right-radius:" + bottomright +"%;\nborder-bottom-left-radius:"+ bottomleft +"%;\nborder-top-left-radius:"+topleft+"%;";
 }
 
 function sizeBorder(){

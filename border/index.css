@@ -1,16 +1,44 @@
 
 
+
 #box{
-    width: 130px;
-    height: 130px;
-    /* background-color: rgb(233, 12, 12); */
+    width: 230px;
+    height: 230px;
+    background-color: rgb(12, 53, 233);
+    background-image: linear-gradient(to right, rgb(98, 0, 255), rgb(119, 0, 255), rgb(223, 9, 212));
     
+    margin-top: 10%;
+    margin-left: 10%;
     border-top-right-radius: 0%;
     border-bottom-right-radius: 0%;
-
     border-bottom-left-radius: 0%;
     border-top-left-radius: 0%;
     border: 1px solid black;    
+}
+
+#input-grid{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+#input-grid input{
+    
+    padding: 1em;
+    border-radius: 2em;
+    border: 1px solid rgb(39, 37, 37);
+
+    
+}
+
+#result{
+    padding: 1em;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+
+textarea{
+    resize: none;
 }
 
 input::-webkit-outer-spin-button,
@@ -23,10 +51,10 @@ input::-webkit-inner-spin-button {
 input[type=number] {
     -moz-appearance:textfield;
 }
-
+/* 
 textarea{
     position: absolute;
     top: 10px;
     left: 20%;
     right: 0%;
-}
+} */

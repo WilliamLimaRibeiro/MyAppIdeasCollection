@@ -8,24 +8,32 @@
 </head>
 <body>
     
-    <div id="box" ></div>
-    <p>Topo direita</p>
-    <input type="number" value="0" id="top-right" min="0" value="0" onkeyup="topRight()">
-    <!-- <input type="range" value="0" id="top-right" min="0" value="0" onkeyup="topRight()" min="0" step="5" max="50" value="0"> -->
 
-    <p>Topo esquerda</p>
-    <input type="number" value="0" id="top-left" min="0" value="0" onkeyup="topLeft()">
+    <div id="box" onload="codFont()">
 
-    <p>baixo direita</p>
-    <input type="number" value="0" id="bottom-right" min="0" value="0" onkeyup="bottomRight()">
 
-    <p>baixo esquerda</p>
-    <input type="number" value="0" id="bottom-left" min="0" value="0" onkeyup="bottomLeft()">
+    <div id="result">
+        <textarea id="cod" cols="40" rows="20"></textarea>
+    </div>
 
-    <p>Tamanho das bordas</p>
-    <input type="number" value="0" id="box-border" min="0" value="0" onkeyup="sizeBorder()">
+    <div id="input-grid">
+        <p>Topo direita</p>
+        <input type="number" value="0" id="top-right" min="0" value="0" onkeyup="topRight()">
+        <!-- <input type="range" value="0" id="top-right" min="0" value="0" onkeyup="topRight()" min="0" step="5" max="50" value="0"> -->
 
-    <textarea id="cod" cols="100" rows="40"></textarea>
+        <p>Topo esquerda</p>
+        <input type="number" value="0" id="top-left" min="0" value="0" onkeyup="topLeft()">
+
+        <p>baixo direita</p>
+        <input type="number" value="0" id="bottom-right" min="0" value="0" onkeyup="bottomRight()">
+
+        <p>baixo esquerda</p>
+        <input type="number" value="0" id="bottom-left" min="0" value="0" onkeyup="bottomLeft()">
+
+        <p>Tamanho das bordas</p>
+        <input type="number" value="0" id="box-border" min="0" value="0" onkeyup="sizeBorder()">
+    </div>
+    
     <script src="index.js"></script>
 </body>
 </html>
