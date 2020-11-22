@@ -1,5 +1,7 @@
 
-
+body{
+    background-color: rgba(104, 104, 104, 0.733);
+}
 
 #box{
     width: 230px;
@@ -13,7 +15,7 @@
     border-bottom-right-radius: 0%;
     border-bottom-left-radius: 0%;
     border-top-left-radius: 0%;
-    border: 1px solid black;    
+    border: 1px solid rgb(98, 0, 255);    
 }
 
 #input-grid{
@@ -23,11 +25,17 @@
 }
 #input-grid input{
     
+    background-color: rgb(12, 53, 233);
+    background-image: linear-gradient(to right, rgb(126, 51, 247), rgb(158, 77, 250), rgb(223, 9, 212));
     padding: 1em;
     border-radius: 2em;
-    border: 1px solid rgb(39, 37, 37);
+    border: 1px none rgb(39, 37, 37);
 
-    
+}
+#input-grid input:focus{
+box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
 }
 
 #result{
@@ -38,6 +46,12 @@
 }
 
 textarea{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 1.3em;
+    background-color: rgb(12, 53, 233);
+    background-image: linear-gradient(to right, rgb(98, 0, 255), rgb(119, 0, 255), rgb(223, 9, 212));
+    
     resize: none;
 }
 
